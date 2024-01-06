@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My website</title>
+  <link rel="stylesheet" type="text/css" href="static/style.css"></link> <!-- conectam fisierul css la html -->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='icon.ico') }}">  <!--adaugam icon pentru pagina-->
+</head>                           
+<body>
+   Salut {{name}}    <!--se afiseaza pe pagina in browser acest nume-->
+   Esti nascut in {{post_id}} 
+  <script src='static/script.js'></script>
+</body>
+</html>
+
+<!--
+  comment in HTML
+  https://icon-icons.com/ - free icons site
+-->
